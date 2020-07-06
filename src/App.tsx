@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button>Normal</Button>
+        <Button btnType="danger">Normal</Button>
         <Button size="lg" btnType="primary">Large Button</Button>
         <Button disabled={true}>Normal</Button>
         <Button btnType="link" href="http://www.baidu.com">Normal</Button>
