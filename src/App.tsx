@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './components/button/button';
+import Icon from './components/icon/icon';
 
 import './styles/index.scss';
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Icon theme="success" icon="coffee" size="10x" />
         <Button btnType="danger">Normal</Button>
         <Button size="lg" btnType="primary">Large Button</Button>
         <Button disabled={true}>Normal</Button>
